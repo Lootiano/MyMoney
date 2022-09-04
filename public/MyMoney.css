@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(6, 202, 33);
+  color: black;
+}
+
+#note {
+  text-align: center;
+  background-color: rgb(197, 168, 0);
+  min-height: 400px;
+  max-width: 550px;
+  margin: 0 auto;
+  margin-top: 12px;
+  border-radius: 20px;
+}
+
+#list {
+  background-color: rgb(79, 142, 224);
+  box-sizing: initial;
+  min-height: 300px;
+}
