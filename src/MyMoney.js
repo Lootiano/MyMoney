@@ -6,7 +6,7 @@ var onclicked = additionValueDisplay.addEventListener(
     var realInputValue = inputValue.value;
     if (realInputValue != 0) {
       document.getElementById("list").innerHTML += `
-    <div id="bar">
+    <div id="bar-green">
       <h4>Valor adicionado</h4>
       <p>${realInputValue}</p>
     </div>

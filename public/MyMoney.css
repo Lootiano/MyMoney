@@ -8,6 +8,7 @@ body {
 
 #box {
   display: flex;
+  max-width: 1360px;
   align-items: center;
   justify-content: center;
 }
@@ -22,6 +23,7 @@ body {
 }
 
 #list {
+  padding-top: 1px;
   margin-top: 12px;
   background-color: #006effbe;
   min-height: 390px;
@@ -57,7 +59,13 @@ input[type="button"] {
   border: none;
 }
 
-#bar {
+#bar-green {
   background-color: white;
-  box-sizing: initial;
+  background-color: rgba(81, 250, 81, 0.089);
+  margin-top: 7px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  box-shadow: -2px 2px 3px 2px rgb(0, 0, 0, 0.5);
 }
