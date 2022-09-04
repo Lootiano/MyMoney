@@ -1,13 +1,16 @@
 var additionValueDisplay = document.getElementById("addition");
-var onclicked = additionValueDisplay.addEventListener("click", btnAddition);
-
-function btnAddition() {
-  var inputValue = document.getElementById("value");
-  var clearValue = inputValue.value;
-  document.getElementById("list").innerHTML += `
+var onclicked = additionValueDisplay.addEventListener(
+  "click",
+  (btnAddition = () => {
+    var inputValue = document.getElementById("value");
+    var realInputValue = inputValue.value;
+    if (realInputValue != 0) {
+      document.getElementById("list").innerHTML += `
     <div id="bar">
       <h4>Valor adicionado</h4>
-      <p>${clearValue}</p>
+      <p>${realInputValue}</p>
     </div>
   `;
-}
+    }
+  })
+);
