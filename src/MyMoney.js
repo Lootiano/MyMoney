@@ -3,12 +3,11 @@ var onclicked = additionValueDisplay.addEventListener(
   "click",
   (btnAddition = () => {
     var inputValue = document.getElementById("value");
-    var realInputValue = inputValue.value;
-    if (realInputValue != 0) {
+    if (inputValue.value != 0) {
       document.getElementById("list").innerHTML += `
     <div id="bar-green">
       <h4>Valor adicionado</h4>
-      <p>${realInputValue}</p>
+      <p>${inputValue.value}</p>
     </div>
   `;
     }
