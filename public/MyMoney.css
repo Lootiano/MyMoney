@@ -3,13 +3,13 @@
 }
 
 body {
-  background-color: #00db1db9;
+  background-color: #00db1dc9;
 }
 
 #box {
   margin: 0 auto;
-  max-width: 560px;
-  max-height: 560px;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 #note {
@@ -24,11 +24,28 @@ body {
 #list {
   padding-top: 1px;
   margin-top: 12px;
-  background-color: #006effbe;
+  background-color: #006eff;
   min-height: 390px;
   max-width: 3900px;
   border-radius: 10px;
   margin-bottom: 6px;
+}
+
+#partition {
+  background-color: white;
+  margin: 7px 8px 8px 8px;
+  border-radius: 4px;
+  box-shadow: -2px 2px 3px 2px rgb(0, 0, 0, 0.5);
+}
+
+#partition-green {
+  border-radius: 4px;
+  background-color: green;
+}
+
+#partition-red {
+  border-radius: 4px;
+  background-color: red;
 }
 
 #inputs {
@@ -56,6 +73,7 @@ input[type="text"] {
 button {
   display: inline-block;
   border: 0px;
+  padding: 8px 20px 8px 20px;
 }
 
 /* img {
@@ -63,13 +81,8 @@ button {
   width: 35px;
 } */
 
-#bar-green {
-  background-color: white;
-  background-color: rgba(81, 250, 81, 0.089);
-  margin-top: 7px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+#bar-red {
+  margin: 7px 8px 8px 8px;
   border-radius: 4px;
   box-shadow: -2px 2px 3px 2px rgb(0, 0, 0, 0.5);
 }
