@@ -38,12 +38,24 @@ body {
   box-shadow: -2px 2px 3px 2px rgb(0, 0, 0, 0.5);
 }
 
+#partition-clear {
+  background-color: white;
+  margin: 7px 8px 8px 8px;
+  border-radius: 4px;
+  box-shadow: -2px 2px 3px 2px rgb(0, 0, 0, 0.5);
+}
+
 #partition-green {
   border-radius: 4px;
   background-color: green;
 }
 
 #partition-red {
+  border-radius: 4px;
+  background-color: red;
+}
+
+#partition-value {
   border-radius: 4px;
   background-color: red;
 }
@@ -80,9 +92,3 @@ button {
   display: block;
   width: 35px;
 } */
-
-#bar-red {
-  margin: 7px 8px 8px 8px;
-  border-radius: 4px;
-  box-shadow: -2px 2px 3px 2px rgb(0, 0, 0, 0.5);
-}
