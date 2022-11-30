@@ -1,4 +1,8 @@
-getRegisterValue = () => {
+const getValue = () => {
+  return document.getElementById('value').value;
+};
+
+const getRegisterValue = () => {
   return JSON.parse(localStorage.getItem('value'));
 };
 
@@ -6,28 +10,33 @@ if (getRegisterValue() == null) {
   localStorage.setItem('value', JSON.stringify(0));
 }
 
-getValue = () => {
-  return document.getElementById('value').value;
-};
-
-getAddValue = () => {
+const getAddValue = () => {
   getValue() == ''
     ? alert('Valor não especificado')
     : registerAddValue(getValue());
 };
 
-getSubValue = () => {
+const getSubValue = () => {
   getValue() == ''
     ? alert('Valor não especificado')
     : registerSubValue(getValue());
 };
 
-registerAddValue = (value) => {
+const registerAddValue = (value) => {
   let addValue = JSON.parse(getRegisterValue()) + JSON.parse(value);
   localStorage.setItem('value', JSON.stringify(addValue));
+  showValue();
 };
 
-registerSubValue = (value) => {
+const registerSubValue = (value) => {
   let subValue = JSON.parse(getRegisterValue()) - JSON.parse(value);
   localStorage.setItem('value', JSON.stringify(subValue));
+  showValue();
 };
+
+const showValue = () => {
+  let show = document.getElementById('money');
+  show.innerText = getRegisterValue();
+};
+
+showValue();

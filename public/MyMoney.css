@@ -24,7 +24,7 @@ body {
 #list {
   padding-top: 1px;
   margin-top: 12px;
-  background-color: #006eff;
+  background-color: rgb(204, 204, 204);
   min-height: 390px;
   max-width: 3900px;
   border-radius: 10px;
@@ -75,7 +75,7 @@ body {
   border-bottom: 1mm ridge rgba(216, 6, 6, 0.568);
 }
 
-input[type="text"] {
+input[type='text'] {
   margin-bottom: 6px;
   padding: 8px;
   border: 0px;
