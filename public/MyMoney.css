@@ -6,11 +6,7 @@ body {
   background-color: #00db1dc9;
 }
 
-#box {
-  margin: 0 auto;
-  max-width: 500px;
-  max-height: 500px;
-}
+
 
 #note {
   text-align: center;
