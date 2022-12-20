@@ -34,13 +34,13 @@ const registerSubValue = (value) => {
   showValue();
 };
 
-// const removeValue = () => {
-//   localStorage.clear();
-//   if (getRegisterValue() == null) {
-//     localStorage.setItem('value', JSON.stringify(0));
-//   }
-//   showValue();
-// };
+const removeValue = () => {
+  localStorage.clear();
+  if (getRegisterValue() == null) {
+    localStorage.setItem('value', JSON.stringify(0));
+  }
+  showValue();
+};
 
 const manipulatedValue = () => {
   let data = getRegisterValue();
