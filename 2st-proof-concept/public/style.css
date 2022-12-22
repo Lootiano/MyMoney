@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(192, 192, 192);
+}
+
+#box {
+  margin: 0 auto;
+  max-width: 87vh;
+  max-height: 100vh;
+}
+
+#note {
+  text-align: center;
+  color: #000;
+  background-color: rgb(102, 186, 189);
+  margin-top: 15px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#list {
+  padding-top: 1px;
+  margin-top: 12px;
+  background-color: rgba(204, 204, 204, 0.678);
+  min-height: 390px;
+  max-width: 85vh;
+  border-radius: 10px;
+  margin-bottom: 6px;
+}
+
+#money {
+  /* vertical-align: baseline; */
+}

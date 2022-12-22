@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="public/style.css" />
+    <script src="src/index.js" defer></script>
+    <title>MyMoney</title>
+  </head>
+  <body>
+    <div id="box">
+      <div id="note">
+        <h2>Meu Dinheiro</h2>
+        <p>Dinheiro ganho este mês</p>
+        <div id="list">
+          <!-- <div id="input-list" class="input"></div> -->
+          <p id="money"></p>
+        </div>
+        <div id="inputs">
+          <input type="text" placeholder="Digite o valor" required id="value" />
+          <button id="addition" onclick="getAddValue()">+</button>
+          <button id="subtraction" onclick="getSubValue()">-</button>
+          <button id="cl" onclick="removeValue()">Clear</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
